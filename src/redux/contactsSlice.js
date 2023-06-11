@@ -7,7 +7,7 @@ import {
 
 import { selectContacts } from './selectors';
 
-axios.defaults.baseURL = 'https://63e53f554474903105fc94dd.mockapi.io/api/v1/';
+axios.defaults.baseURL = 'https://64860cbba795d24810b7a4d6.mockapi.io';
 
 export const fetchContacts = createAsyncThunk('contacts/fetchAll', async () => {
   try {
